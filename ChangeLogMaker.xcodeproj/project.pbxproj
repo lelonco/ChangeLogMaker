@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		C4C73F7F2887189D0016BCEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F7E2887189D0016BCEE /* main.swift */; };
+		C4C73F9028871BBD0016BCEE /* MarkdownCollapsibleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8528871BBD0016BCEE /* MarkdownCollapsibleSection.swift */; };
+		C4C73F9128871BBD0016BCEE /* MarkdownImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8628871BBD0016BCEE /* MarkdownImage.swift */; };
+		C4C73F9228871BBD0016BCEE /* MarkdownList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8728871BBD0016BCEE /* MarkdownList.swift */; };
+		C4C73F9328871BBD0016BCEE /* MarkdownTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8828871BBD0016BCEE /* MarkdownTable.swift */; };
+		C4C73F9428871BBD0016BCEE /* MarkdownHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8928871BBD0016BCEE /* MarkdownHeader.swift */; };
+		C4C73F9528871BBD0016BCEE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8A28871BBD0016BCEE /* Extensions.swift */; };
+		C4C73F9628871BBD0016BCEE /* MarkdownBlockquotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8B28871BBD0016BCEE /* MarkdownBlockquotes.swift */; };
+		C4C73F9728871BBD0016BCEE /* MarkdownConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8C28871BBD0016BCEE /* MarkdownConvertible.swift */; };
+		C4C73F9828871BBD0016BCEE /* MarkdownLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8D28871BBD0016BCEE /* MarkdownLink.swift */; };
+		C4C73F9928871BBD0016BCEE /* MarkdownCodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8E28871BBD0016BCEE /* MarkdownCodeBlock.swift */; };
+		C4C73F9A28871BBD0016BCEE /* MarkdownFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F8F28871BBD0016BCEE /* MarkdownFile.swift */; };
+		C4C73F9C288754070016BCEE /* Git.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F9B288754070016BCEE /* Git.swift */; };
+		C4C73F9E28875F4C0016BCEE /* CommitSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C73F9D28875F4C0016BCEE /* CommitSearcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,19 @@
 /* Begin PBXFileReference section */
 		C4C73F7B2887189D0016BCEE /* ChangeLogMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChangeLogMaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C73F7E2887189D0016BCEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C4C73F8528871BBD0016BCEE /* MarkdownCollapsibleSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownCollapsibleSection.swift; sourceTree = "<group>"; };
+		C4C73F8628871BBD0016BCEE /* MarkdownImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownImage.swift; sourceTree = "<group>"; };
+		C4C73F8728871BBD0016BCEE /* MarkdownList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownList.swift; sourceTree = "<group>"; };
+		C4C73F8828871BBD0016BCEE /* MarkdownTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownTable.swift; sourceTree = "<group>"; };
+		C4C73F8928871BBD0016BCEE /* MarkdownHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownHeader.swift; sourceTree = "<group>"; };
+		C4C73F8A28871BBD0016BCEE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4C73F8B28871BBD0016BCEE /* MarkdownBlockquotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownBlockquotes.swift; sourceTree = "<group>"; };
+		C4C73F8C28871BBD0016BCEE /* MarkdownConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownConvertible.swift; sourceTree = "<group>"; };
+		C4C73F8D28871BBD0016BCEE /* MarkdownLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownLink.swift; sourceTree = "<group>"; };
+		C4C73F8E28871BBD0016BCEE /* MarkdownCodeBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownCodeBlock.swift; sourceTree = "<group>"; };
+		C4C73F8F28871BBD0016BCEE /* MarkdownFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownFile.swift; sourceTree = "<group>"; };
+		C4C73F9B288754070016BCEE /* Git.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Git.swift; sourceTree = "<group>"; };
+		C4C73F9D28875F4C0016BCEE /* CommitSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitSearcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,19 @@
 			isa = PBXGroup;
 			children = (
 				C4C73F7E2887189D0016BCEE /* main.swift */,
+				C4C73F8A28871BBD0016BCEE /* Extensions.swift */,
+				C4C73F8B28871BBD0016BCEE /* MarkdownBlockquotes.swift */,
+				C4C73F8E28871BBD0016BCEE /* MarkdownCodeBlock.swift */,
+				C4C73F8528871BBD0016BCEE /* MarkdownCollapsibleSection.swift */,
+				C4C73F8C28871BBD0016BCEE /* MarkdownConvertible.swift */,
+				C4C73F8F28871BBD0016BCEE /* MarkdownFile.swift */,
+				C4C73F8928871BBD0016BCEE /* MarkdownHeader.swift */,
+				C4C73F8628871BBD0016BCEE /* MarkdownImage.swift */,
+				C4C73F8D28871BBD0016BCEE /* MarkdownLink.swift */,
+				C4C73F8728871BBD0016BCEE /* MarkdownList.swift */,
+				C4C73F8828871BBD0016BCEE /* MarkdownTable.swift */,
+				C4C73F9B288754070016BCEE /* Git.swift */,
+				C4C73F9D28875F4C0016BCEE /* CommitSearcher.swift */,
 			);
 			path = ChangeLogMaker;
 			sourceTree = "<group>";
@@ -120,7 +159,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C73F9A28871BBD0016BCEE /* MarkdownFile.swift in Sources */,
+				C4C73F9928871BBD0016BCEE /* MarkdownCodeBlock.swift in Sources */,
+				C4C73F9328871BBD0016BCEE /* MarkdownTable.swift in Sources */,
+				C4C73F9428871BBD0016BCEE /* MarkdownHeader.swift in Sources */,
+				C4C73F9828871BBD0016BCEE /* MarkdownLink.swift in Sources */,
+				C4C73F9228871BBD0016BCEE /* MarkdownList.swift in Sources */,
+				C4C73F9628871BBD0016BCEE /* MarkdownBlockquotes.swift in Sources */,
+				C4C73F9E28875F4C0016BCEE /* CommitSearcher.swift in Sources */,
+				C4C73F9728871BBD0016BCEE /* MarkdownConvertible.swift in Sources */,
+				C4C73F9028871BBD0016BCEE /* MarkdownCollapsibleSection.swift in Sources */,
+				C4C73F9128871BBD0016BCEE /* MarkdownImage.swift in Sources */,
+				C4C73F9C288754070016BCEE /* Git.swift in Sources */,
 				C4C73F7F2887189D0016BCEE /* main.swift in Sources */,
+				C4C73F9528871BBD0016BCEE /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
