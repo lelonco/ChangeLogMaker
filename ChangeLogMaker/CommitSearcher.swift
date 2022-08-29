@@ -12,10 +12,11 @@ class CommitSearcher {
     
     func run() {
         if gitExists() {
-            let title = MarkdownHeader(title: "Commits")
+            let title = MarkdownHeader(title: "[Unreleased]", level: .h2, style: .atx, close: false)
+            let subtitle = MarkdownHeader(title: "☑️ Added:", level: .h1, style: .atx, close: false)
             let list = MarkdownList(items: getCommitsMessages(filter: "\\[VID.*\\]"))
             print(list.markdown)
-            writeChangelog(markdown: [title,list])
+            writeChangelog(markdown: [title,subtitle,list])
         } else {
             print("Error: can't find git repository\n")
         }
@@ -48,7 +49,7 @@ private extension CommitSearcher {
 
     func getCommitsMessages(filter: String) -> [String] {
         shell("""
-        git log -i --grep="\(filter)" --pretty=%s
+            git log -i --grep="\\[VID.*\\]" --pretty=%s $(git describe --tags --abbrev=0 @^)..@
         """)
             .components(separatedBy: "\n")
             .filter({ !$0.isEmpty })
